@@ -4,9 +4,10 @@ import requests
 from tkinter import *
 from PIL import ImageTk,Image
 from urllib.request import urlopen
-
+import os
 import urllib.request
 import io
+from tkinter import Button
 from io import BytesIO
 import asyncio
 import datetime
@@ -26,6 +27,18 @@ label = tk.Label(image=photo)
 label.image = photo
 label.pack()
 
+
+def restart_program():
+    """Restarts the current program.
+    Note: this function does not return. Any cleanup action (like
+    saving data) must be done before calling this function."""
+    python = sys.executable
+    os.execl(python, python, * sys.argv)
+
+Button(root, text="Next", command=restart_program).pack()
+
+
+  
 root.mainloop()
 
 
