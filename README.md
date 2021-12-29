@@ -73,6 +73,6 @@ root.mainloop()
 
 ```
 ## Output
-**You can see output in the output.jpeg**
+**You can see output in the output.png**
 
 
