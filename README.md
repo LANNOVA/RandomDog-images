@@ -8,7 +8,7 @@ URL of the API - https://dog.ceo/dog-api/
 
 API - https://dog.ceo/api/breeds/image/random/
 
-### JSON
+ ### JSON
 ```json
 
 {
