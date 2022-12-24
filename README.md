@@ -32,8 +32,7 @@ import urllib.request #url requeat
 import io
 from tkinter import Button #button for next option
 from io import BytesIO
-import asyncio #not required
-import datetime #not required
+
 
 ```
 ### For requesting api and tkinter for use
@@ -46,9 +45,7 @@ root = tk.Tk()
 ### Restart function 
 ```py
 def restart_program():
-    """Restarts the current program.
-    Note: this function does not return. Any cleanup action (like
-    saving data) must be done before calling this function."""
+    
     python = sys.executable
     os.execl(python, python, * sys.argv)
 
@@ -73,6 +70,6 @@ root.mainloop()
 
 ```
 ## Output
-**You can see output in the output.png**
+**You can see output in the png file**
 
 
